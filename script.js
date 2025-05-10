@@ -67,12 +67,16 @@ const carouselData = {
                 {
                     title: "Kamatayan sa pamamagitan ng sariling kamay",
                     author: "Caitlin Athena V. Tan",
-                    snippet: "Sa mundong ating ginagalawan, madalas pinapalaki at pinapaganda ang ideya ng<br>pagsasakripisyo ng sarili bilang isang tahimik ngunit mahalagang birtud na dapat taglayin ng lahat. Ngunit sa kanta ni Angela Ken na “Ako Naman Muna”, inilalarawan ang kadalasang hindi napapansing emosyonal at mental na bigat ng palaging pagbibigay ng sarili sa iba at palagiang pagpapahalaga sa kapakanan ng iba kaysa sa sarili. Sa pamamagitan ng matatalim na liriko at masinsinang tono, nagsisilbi ang kanta bilang isang uri ng awitin para<br>sa mga taong nakalimutang piliin ang kanilang sarili matapos ang mahabang panahon ng walang sawang pagsasakripisyo.<br><br>Isa sa mga pinaka-tumatak na linya sa kanta, “kada hakbang sa lupa’y para akong inaalon at nalulunod sa batikok ng mundo”, ay sumasalamin sa pasaning dinadala ng mga taong ibinuhos na ang lahat ngunit bihira o hindi man lang kinikilala o pinapahinga sa kanilang mga ginagawa. Mas lalong pinapalalim ng kanta ang damdamin ng pagod sa ilalim ng walang humpay na presyon sa linyang “pigang-piga na sa mga problemang 'di masolusyonan agad”, na tila larawan ng isang taong namumuhay habang pasan ang mga bigat ng mundo, habang patuloy pa rin itong humihingi ng higit pa mula sa kanila.<br><br>Sa kulturang Pilipino, kapansin-pansin ang pagsasakripisyo sa araw-araw, ngunit ito ay tila naging normal na bahagi ng buhay kaya’t hindi na ito napapansin. Ang mga magulang ay walang pagod na nagtatrabaho para sa kanilang mga anak, ang mga nakatatandang kapatid ay kadalasang inaako ang papel ng magulang, at ang mga estudyante ay pilit hinahabol ang mga imposibleng dedlayn at mataas na pamantayan. Ngunit ang kanta ay nagbibigay ng makatotohanang pananaw at tila nagtatanong, “hanggang kailan ito magpapatuloy bago tuluyang mawala ang sarili ng isang tao?” Marami na sa panahon ngayon ang nakaranas nito at tinatawag itong “self-existential crisis”. Kapag sobra na ang sakripisyo, unti-unting nawawala ang pagkakakilanlan sa sarili—ang natitirang nakikita ay ang pangangailangan at personalidad ng iba, wala nang nagmumula mula sa sarili.<br><br>Sa kasamaang palad, sinusuportahan ng mga makabagong estadistika ang nais ipahayag ng kanta. Ayon sa maraming ulat mula sa World Health Organization (WHO), higit sa 40% ng kabataang Pilipino ang nakararamdam ng guilt o konsensya sa pagbibigay-priyoridad sa sarili, kahit na sila ay labis nang nalulunod sa bigat ng sitwasyon—na madalas nauuwi sa pananakit sa sarili at minsan ay sa pagpapakamatay. Hindi lamang ito nagpapakita ng isang malungkot na kalagayan ng lipunan, kundi pati na rin ng isang kulturang niluluwalhati at pinapaganda ang labis na pagsasakripisyo kahit kapalit nito ay ang sariling kapakanan.<br><br>Ngunit sa gitna ng pagkapagod, nagbibigay pag-asa ang kanta. “Dahan-dahan nating<br>simulan muli ang paghakbang… upang makita ang ating kagandahan.” “Dahan-dahang<br>tanggalin ang maskara at hayaang tumulo ang bumabadyang mga luha.” Nagsisilbi itong banayad na paalala na piliin ang sarili—makita ang sarili hindi dahil sa tingin ng iba, kundi dahil sa tunay mong pagkatao—nang walang kasamang hiya o guilt. Ang sakit ay hindi kahinaan, kundi simula ng paghilom. Ang tunay na lakas ay hindi nasusukat sa kung gaano karaming pasan mo, kundi sa kakayahang huminto at sabihing “mahalaga rin ako”.<br><br>Sa mundong madalas ikinakabit ang pangangalaga sa sarili bilang pagiging makasarili, ipinapaalala ng kantang ito na panahon nang bigyang-kahulugan muli ang sakripisyo, at ituro sa lipunan kung paano lumikha ng ligtas na espasyo kung saan maaaring magsalita at magpahinga ang bawat isa nang walang pangamba. Habang pinakikinggan ang kanta, tila ba may taong sa wakas ay inilalapat sa salita ang iyong damdamin. Para sa mga tahimik na nasasaktan, ito ang tinig na nagsasabing “ako naman muna”—isang payapang pagbawi ng sariling halaga."
+                    snippet: "Sa mundong ating ginagalawan, madalas pinapalaki at pinapaganda ang ideya ng<br>pagsasakripisyo ng sarili bilang isang tahimik ngunit mahalagang birtud na dapat taglayin ng lahat. Ngunit sa kanta ni Angela Ken na “Ako Naman Muna”, inilalarawan ang kadalasang hindi napapansing emosyonal at mental na bigat ng palaging pagbibigay ng sarili sa iba at palagiang pagpapahalaga sa kapakanan ng iba kaysa sa sarili. Sa pamamagitan ng matatalim na liriko at masinsinang tono, nagsisilbi ang kanta bilang isang uri ng awitin para<br>sa mga taong nakalimutang piliin ang kanilang sarili matapos ang mahabang panahon ng walang sawang pagsasakripisyo.<br><br>Isa sa mga pinaka-tumatak na linya sa kanta, “kada hakbang sa lupa’y para akong inaalon at nalulunod sa batikok ng mundo”, ay sumasalamin sa pasaning dinadala ng mga taong ibinuhos na ang lahat ngunit bihira o hindi man lang kinikilala o pinapahinga sa kanilang mga ginagawa. Mas lalong pinapalalim ng kanta ang damdamin ng pagod sa ilalim ng walang humpay na presyon sa linyang “pigang-piga na sa mga problemang 'di masolusyonan agad”, na tila larawan ng isang taong namumuhay habang pasan ang mga bigat ng mundo, habang patuloy pa rin itong humihingi ng higit pa mula sa kanila.<br><br>Sa kulturang Pilipino, kapansin-pansin ang pagsasakripisyo sa araw-araw, ngunit ito ay tila naging normal na bahagi ng buhay kaya’t hindi na ito napapansin. Ang mga magulang ay walang pagod na nagtatrabaho para sa kanilang mga anak, ang mga nakatatandang kapatid ay kadalasang inaako ang papel ng magulang, at ang mga estudyante ay pilit hinahabol ang mga imposibleng dedlayn at mataas na pamantayan. Ngunit ang kanta ay nagbibigay ng makatotohanang pananaw at tila nagtatanong, “hanggang kailan ito magpapatuloy bago tuluyang mawala ang sarili ng isang tao?” Marami na sa panahon ngayon ang nakaranas nito at tinatawag itong “self-existential crisis”. Kapag sobra na ang sakripisyo, unti-unting nawawala ang pagkakakilanlan sa sarili—ang natitirang nakikita ay ang pangangailangan at personalidad ng iba, wala nang nagmumula mula sa sarili.<br><br>Sa kasamaang palad, sinusuportahan ng mga makabagong estadistika ang nais ipahayag ng kanta. Ayon sa maraming ulat mula sa World Health Organization (WHO), higit sa 40% ng kabataang Pilipino ang nakararamdam ng guilt o konsensya sa pagbibigay-priyoridad sa sarili, kahit na sila ay labis nang nalulunod sa bigat ng sitwasyon—na madalas nauuwi sa pananakit sa sarili at minsan ay sa pagpapakamatay. Hindi lamang ito nagpapakita ng isang malungkot na kalagayan ng lipunan, kundi pati na rin ng isang kulturang niluluwalhati at pinapaganda ang labis na pagsasakripisyo kahit kapalit nito ay ang sariling kapakanan.<br><br>Ngunit sa gitna ng pagkapagod, nagbibigay pag-asa ang kanta. “Dahan-dahan nating<br>simulan muli ang paghakbang… upang makita ang ating kagandahan.” “Dahan-dahang<br>tanggalin ang maskara at hayaang tumulo ang bumabadyang mga luha.” Nagsisilbi itong banayad na paalala na piliin ang sarili—makita ang sarili hindi dahil sa tingin ng iba, kundi dahil sa tunay mong pagkatao—nang walang kasamang hiya o guilt. Ang sakit ay hindi kahinaan, kundi simula ng paghilom. Ang tunay na lakas ay hindi nasusukat sa kung gaano karaming pasan mo, kundi sa kakayahang huminto at sabihing “mahalaga rin ako”.<br><br>Sa mundong madalas ikinakabit ang pangangalaga sa sarili bilang pagiging makasarili, ipinapaalala ng kantang ito na panahon nang bigyang-kahulugan muli ang sakripisyo, at ituro sa lipunan kung paano lumikha ng ligtas na espasyo kung saan maaaring magsalita at magpahinga ang bawat isa nang walang pangamba. Habang pinakikinggan ang kanta, tila ba may taong sa wakas ay inilalapat sa salita ang iyong damdamin. Para sa mga tahimik na nasasaktan, ito ang tinig na nagsasabing “ako naman muna”—isang payapang pagbawi ng sariling halaga.",
+                	trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                	trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                 	title: "Sa Likod ng Salamin",
                 	author: "Rylle Mischka H. Postrado",
-                	snippet: "Minsan, hindi lang tayo basta pagod, kundi nauupos. Sa bawat hakbang, pakiramdam natin ay tinatangay na lang tayo ng hangin, ng opinyon ng iba, ng ingay ng mundo. Bawat buntong-hininga, parang may buhol sa dibdib. At sa isang mundong ubod ng gulo, saan ka lulugar kung pakiramdam mo, ni sarili mong anino hindi mo na makilala?<br><br>Sa awit ni Angela Ken na “Ako Naman Muna,” tila binigyang-boses ang katahimikan ng maraming puso. Yung mga pusong pilit lumalaban pero palihim nang sumusuko. Yung mga matang nakangiti pero laging lumuluha kapag wala nang nakakakita.<br><br>“Dahan-dahang tumingin sa salamin upang makita ang ating kagandahan.” Paano kung ang salamin na mismo ang kalaban? Paano kung tuwing tumingin ka, ang nakikita mo ay hindi ang sarili mo, kundi isang bersyon mong sinukat, hinusgahan, kinulang? Pero sa awit, sinasabing dahan-dahan lang, huwag biglain. Sa dahan-dahang pagkilala sa sarili, may puwang pa ring matuklasan ang tunay na ganda. Hindi yung ganda na sinusukat ng likes, ng filters, ng sukat ng damit, kundi yung ganda ng isang pusong di sumusuko kahit sugatan.<br><br>At sa likod ng maskara, may totoo. “Dahan-dahang tanggalin ang maskara at hayaang tumulo ang bumabadyang mga luha.” Hindi kahinaan ang umiyak. Hindi kasalanan ang mapagod. Ang pagtulo ng luha ay paglaya. Isang tahimik na sigaw na, “Narito ako. Ako ito. At sapat ako.”<br><br>Minsan kailangan lang talaga nating marinig na okay lang muna tayong mauna. Na sa mundo ng laging “ikaw naman,” may lugar din para sa “ako naman muna.”<br><br>Hindi ito pagiging makasarili. Ito ay paghilom. Isang panandaliang pahinga sa gitna ng mahabang lakad patungo sa pagkatao.<br><br>“Oo pagod ka na, pero ‘di ka nag-iisa.” Tila yakap ‘yon ng isang kaibigang matagal mong hindi nakita. Paalala ito na kahit anong bigat ng pakiramdam, may mga taong makikinig, magmamahal, magpapaalala, na hindi mo kailangang laging matapang. Na kahit ang pinakamalalakas, may karapatang huminga.<br><br>Ang kantang ito ay hindi lang musika. Isa itong lihim na sulat para sa bawat kaluluwang nauupos. Isa itong paalala na kahit sa mga oras na hindi ka sigurado kung sapat ka — sapat ka pa rin.<br><br>Kaya sa tuwing pakiramdam mo’y naliligaw ka sa sarili mong katawan, o nauubos ka sa pamumuhay ayon sa paningin ng iba, tandaan mo lang ito:<br>Tumingin ka muli sa salamin.<br>Hindi upang hanapin ang perpekto,<br>Kundi upang yakapin ang totoo.<br><br>Ako naman muna.<br><br>At sa wakas, maririnig ka rin ng sarili mong puso."
+                	snippet: "Minsan, hindi lang tayo basta pagod, kundi nauupos. Sa bawat hakbang, pakiramdam natin ay tinatangay na lang tayo ng hangin, ng opinyon ng iba, ng ingay ng mundo. Bawat buntong-hininga, parang may buhol sa dibdib. At sa isang mundong ubod ng gulo, saan ka lulugar kung pakiramdam mo, ni sarili mong anino hindi mo na makilala?<br><br>Sa awit ni Angela Ken na “Ako Naman Muna,” tila binigyang-boses ang katahimikan ng maraming puso. Yung mga pusong pilit lumalaban pero palihim nang sumusuko. Yung mga matang nakangiti pero laging lumuluha kapag wala nang nakakakita.<br><br>“Dahan-dahang tumingin sa salamin upang makita ang ating kagandahan.” Paano kung ang salamin na mismo ang kalaban? Paano kung tuwing tumingin ka, ang nakikita mo ay hindi ang sarili mo, kundi isang bersyon mong sinukat, hinusgahan, kinulang? Pero sa awit, sinasabing dahan-dahan lang, huwag biglain. Sa dahan-dahang pagkilala sa sarili, may puwang pa ring matuklasan ang tunay na ganda. Hindi yung ganda na sinusukat ng likes, ng filters, ng sukat ng damit, kundi yung ganda ng isang pusong di sumusuko kahit sugatan.<br><br>At sa likod ng maskara, may totoo. “Dahan-dahang tanggalin ang maskara at hayaang tumulo ang bumabadyang mga luha.” Hindi kahinaan ang umiyak. Hindi kasalanan ang mapagod. Ang pagtulo ng luha ay paglaya. Isang tahimik na sigaw na, “Narito ako. Ako ito. At sapat ako.”<br><br>Minsan kailangan lang talaga nating marinig na okay lang muna tayong mauna. Na sa mundo ng laging “ikaw naman,” may lugar din para sa “ako naman muna.”<br><br>Hindi ito pagiging makasarili. Ito ay paghilom. Isang panandaliang pahinga sa gitna ng mahabang lakad patungo sa pagkatao.<br><br>“Oo pagod ka na, pero ‘di ka nag-iisa.” Tila yakap ‘yon ng isang kaibigang matagal mong hindi nakita. Paalala ito na kahit anong bigat ng pakiramdam, may mga taong makikinig, magmamahal, magpapaalala, na hindi mo kailangang laging matapang. Na kahit ang pinakamalalakas, may karapatang huminga.<br><br>Ang kantang ito ay hindi lang musika. Isa itong lihim na sulat para sa bawat kaluluwang nauupos. Isa itong paalala na kahit sa mga oras na hindi ka sigurado kung sapat ka — sapat ka pa rin.<br><br>Kaya sa tuwing pakiramdam mo’y naliligaw ka sa sarili mong katawan, o nauubos ka sa pamumuhay ayon sa paningin ng iba, tandaan mo lang ito:<br>Tumingin ka muli sa salamin.<br>Hindi upang hanapin ang perpekto,<br>Kundi upang yakapin ang totoo.<br><br>Ako naman muna.<br><br>At sa wakas, maririnig ka rin ng sarili mong puso.",
+                	trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                	trackName: "Angela Ken - Ako Naman Muna"
                 }
             ]
         }
@@ -165,8 +169,8 @@ document.querySelectorAll('section, #home').forEach(s=>obs.observe(s));
 
 // --- BUILD CAROUSELS ---
 function buildCarousel(id) {
-  const cont = document.getElementById(id);
-  const essays = carouselData[id]||[];
+  const cont    = document.getElementById(id);
+  const essays  = carouselData[id] || [];
   essays.forEach(essay => {
     const c = document.createElement('div');
     c.className = 'card';
@@ -176,9 +180,27 @@ function buildCarousel(id) {
         <span class="author">${essay.author}</span>
         <p>${essay.snippet}</p>
       </div>`;
-    c.addEventListener('click', ()=> openReading(essay.title,essay.author,essay.snippet));
+
+    // decide which opener to use:
+    if (id === 'carousel3' && essay.trackSrc && essay.trackName) {
+      c.addEventListener('click', () => 
+        openMusicReading(
+          essay.title,
+          essay.author,
+          essay.snippet,
+          essay.trackSrc,
+          essay.trackName
+        )
+      );
+    } else {
+      c.addEventListener('click', () => 
+        openReading(essay.title, essay.author, essay.snippet)
+      );
+    }
+
     cont.appendChild(c);
   });
+
   // horizontal wheel scroll
   cont.addEventListener('wheel', e => {
     e.preventDefault();
@@ -279,4 +301,77 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     heading.textContent = greeting;
+});
+
+
+
+
+// ——— Music Player Elements ———
+const playerEl    = document.getElementById('music-player');
+const toggleBtn   = document.getElementById('player-toggle');
+const audioEl     = document.getElementById('player-audio');
+const progressBar = document.getElementById('progress-bar');
+const progCont    = document.getElementById('progress-container');
+const timeEl      = document.getElementById('time-elapsed');
+const trackTitle  = document.getElementById('track-title');
+
+// ——— 1. NEW: openMusicReading ———
+// (title, author, text, trackSrc, trackName)
+function openMusicReading(title, author, text, trackSrc, trackName) {
+  // Open reading overlay
+  openReading(title, author, text);
+
+  // Configure mini-player
+  audioEl.src = trackSrc;
+  trackTitle.textContent = trackName;
+  progressBar.style.width = '0%';
+  timeEl.textContent = '0:00';
+  toggleBtn.textContent = '▶️';
+
+  playerEl.classList.remove('hidden');
+}
+
+// ——— 2. NEW: closeMusicReading ———
+function closeMusicReading() {
+  audioEl.pause();
+  playerEl.classList.add('hidden');
+  closeReading();
+}
+
+// ——— Play/pause button ———
+toggleBtn.addEventListener('click', () => {
+  if (audioEl.paused) {
+    audioEl.play();
+    toggleBtn.textContent = '⏸️';
+  } else {
+    audioEl.pause();
+    toggleBtn.textContent = '▶️';
+  }
+});
+
+// ——— Update progress bar and time ———
+audioEl.addEventListener('timeupdate', () => {
+  const pct = (audioEl.currentTime / audioEl.duration) * 100 || 0;
+  progressBar.style.width = `${pct}%`;
+
+  const mins = Math.floor(audioEl.currentTime / 60);
+  const secs = String(Math.floor(audioEl.currentTime % 60)).padStart(2, '0');
+  timeEl.textContent = `${mins}:${secs}`;
+});
+
+// ——— Seek on progress bar click ———
+progCont.addEventListener('click', e => {
+  const rect = progCont.getBoundingClientRect();
+  const clickX = e.clientX - rect.left;
+  const ratio = clickX / rect.width;
+  audioEl.currentTime = ratio * audioEl.duration;
+});
+
+// ——— Close button ———
+document.getElementById('close-reading').addEventListener('click', () => {
+  if (!playerEl.classList.contains('hidden')) {
+    closeMusicReading();
+  } else {
+    closeReading();
+  }
 });
