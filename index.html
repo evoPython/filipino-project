@@ -1,0 +1,140 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poetic Fantasy Essays 6.1</title>
+
+  <!-- FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+
+  <!-- MAIN STYLES -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-theme="dark">
+  <!-- Custom cursor -->
+  <div class="custom-cursor"></div>
+
+  <!-- Page progress bar -->
+  <div id="progress"></div>
+
+  <!-- Section dots -->
+  <div id="section-dots">
+    <button data-target="home" class="active"></button>
+    <button data-target="group1"></button>
+    <button data-target="group2"></button>
+    <button data-target="group3"></button>
+  </div>
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="logo">Filipino Project</div>
+    <button id="mobile-menu-toggle" aria-label="Menu">
+      ☰
+    </button>
+    <nav class="desktop-nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#group1">Utos ng Hari</a>
+      <a href="#group2">Bata bata</a>
+      <a href="#group3">OPM Songs</a>
+      <button id="theme-toggle" aria-label="Toggle Theme">
+        <span class="icon moon">🌙</span>
+        <span class="icon sun">☀️</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- MOBILE SIDEBAR -->
+  <aside id="mobile-nav">
+    <button id="mobile-menu-close" aria-label="Close Menu">✕</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#group1">Utos ng Hari</a>
+      <a href="#group2">Bata bata</a>
+      <a href="#group3">OPM Songs</a>
+      <button id="theme-toggle-mobile" aria-label="Toggle Theme">
+        <span class="icon moon">🌙</span>
+        <span class="icon sun">☀️</span>
+      </button>
+    </nav>
+  </aside>
+
+  <!-- SECTIONS -->
+  <section id="home">
+    <h1>WELCOME!</h1>
+    <div class="typewriter" id="typewriter"></div>
+    <button class="btn" data-target="group1">Enter</button>
+  </section>
+
+  <section id="group1">
+    <h2>Pangkat 1: Utos ng Hari</h2>
+    <p class="lead">Ten poetic reflections on Amado V. Hernandez’s masterpiece.</p>
+    <div class="carousel" id="carousel1"></div>
+  </section>
+
+  <section id="group2">
+    <h2>Pangkat 2: Bata bata, Paano Ka Ba Ginawa?</h2>
+    <p class="lead">Cinematic essays that probe children’s stories and social truths.</p>
+    <div class="carousel" id="carousel2"></div>
+  </section>
+
+  <section id="group3">
+    <h2>Pangkat 3: OPM Songs</h2>
+    <p class="lead">Musical meditations on identity, love, and revolution.</p>
+    <div class="carousel" id="carousel3"></div>
+  </section>
+
+  <!-- READING OVERLAY -->
+  <div id="reading-view">
+  	
+  	<div id="reading-wrap">
+    <div id="reading-header">
+    	<button id="close-reading" aria-label="Close">✕</button>
+      <div>
+        <h3 id="read-title">Title</h3>
+        <span class="author" id="read-author">by Author</span>
+      </div>
+      
+    </div>
+    <div id="reading-content">
+      <p id="read-text"></p>
+    </div>
+</div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button id="to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M12 8l6 6H6z"/></svg>
+  </button>
+
+  <!-- FOOTER -->
+  <footer>
+    <h4>TJ Balamban</h4>
+    <p>Thank you for exploring these poetic essays.</p>
+    <p class="github">
+      <a href="https://github.com/your-github-username" target="_blank" rel="noopener">
+        <!-- GitHub SVG icon -->
+        <svg height="24" viewBox="0 0 16 16" width="24" aria-hidden="true">
+          <path fill="currentColor"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+               0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+               -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07
+               -.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+               -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09
+               2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82
+               2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01
+               2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg>
+        your-github-username
+      </a>
+    </p>
+  </footer>
+
+  <!-- MAIN SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
