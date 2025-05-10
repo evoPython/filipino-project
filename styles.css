@@ -571,6 +571,9 @@ footer .github a {
   align-items: center;
   gap: .5rem;
 }
+#home button {
+	color: var(--bg);
+}
 /* ==== RESPONSIVE ==== */
 
 @media (max-width: 1024px) {
@@ -607,6 +610,12 @@ footer .github a {
   .desktop-nav {
     display: none;
   }
+  #reading-view {
+  	padding-top:  0;
+  }
+  #reading-header {
+  	padding-top:  0;
+  }
 
   /* Adjust hero section */
   #home h1 {
@@ -629,47 +638,88 @@ footer .github a {
   }
 }
 
-@media (max-width: 480px) {
-  /* Mobile adjustments */
-  body {
-    font-size: 0.95rem;
-  }
-
-  header {
-    height: 60px;
-    padding: 0 1rem;
-  }
-
-  #reading-header {
-    padding: 4rem 1rem 1rem;
-  }
-
-  #reading-content {
-    padding: 0 1rem 1rem;
-  }
-
-  footer {
-    padding: 3rem 1rem;
-  }
 
 
 
-  .carousel {
-    padding-left: 0.5rem;
-    gap: 1rem;
-  }
 
-  .card {
-    flex: 0 0 180px;
-    height: 300px;
-  }
+#music-player {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--surface);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+  gap: 0.5rem;
+  width: min(600px, 90%);
+  color: inherit;
+}
 
-  .card-front p {
-    font-size: 0.85rem;
-  }
+#music-player.hidden {
+  display: none;
+}
 
-  .btn {
-    font-size: 0.9rem;
-    padding: 0.6rem 1.2rem;
-  }
+/* Top row: info, centered play, time */
+#player-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#track-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+#player-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--gold);
+  cursor: pointer;
+  flex-shrink: 0;
+  margin: 0 auto; /* Center it */
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+#player-toggle:hover {
+  transform: scale(1.2);
+}
+
+#time-elapsed {
+  min-width: 3ch;
+  text-align: right;
+  color: #aaa;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+/* Progress bar */
+#progress-container {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#progress-bar {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background: var(--gold);
+  border-radius: 2px;
+  transition: width 0.1s ease;
 }
