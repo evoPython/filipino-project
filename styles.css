@@ -266,7 +266,7 @@ nav a:hover::after, nav a.active::after {
   border-right: 2px solid var(--ink);
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeUp .8s .6s forwards, cursorBlink .5s .6s infinite;
+  animation: fadeUp .8s .7s forwards, cursorBlink .7s .8s infinite;
 }
 .btn {
   margin-top: 2rem;
