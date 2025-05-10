@@ -219,11 +219,6 @@ function buildCarousel(id) {
     cont.appendChild(c);
   });
 
-  // horizontal wheel scroll
-  cont.addEventListener('wheel', e => {
-    e.preventDefault();
-    cont.scrollLeft += e.deltaY;
-  });
 }
 ['carousel1','carousel2','carousel3'].forEach(buildCarousel);
 
@@ -282,28 +277,28 @@ const mobileNav = document.getElementById('mobile-nav');
 const mobileClose = document.getElementById('mobile-menu-close');
 mobileToggle.addEventListener('click', ()=> mobileNav.classList.add('open'));
 mobileClose.addEventListener('click', ()=> mobileNav.classList.remove('open'));
-document.querySelectorAll('.carousel').forEach(carousel => {
-  // start our "virtual" target at the current scroll
-  let target = carousel.scrollLeft;
+// document.querySelectorAll('.carousel').forEach(carousel => {
+//   // start our "virtual" target at the current scroll
+//   let target = carousel.scrollLeft;
 
-  carousel.addEventListener('wheel', e => {
-    // only hijack vertical-wheel → horizontal
-    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
-    e.preventDefault();
+//   carousel.addEventListener('wheel', e => {
+//     // only hijack vertical-wheel → horizontal
+//     if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+//     e.preventDefault();
 
-    // bump the target by deltaY × your multiplier
-    target = Math.max(
-      0,
-      Math.min(
-        carousel.scrollWidth - carousel.clientWidth,
-        target + e.deltaY * 2
-      )
-    );
+//     // bump the target by deltaY × your multiplier
+//     target = Math.max(
+//       0,
+//       Math.min(
+//         carousel.scrollWidth - carousel.clientWidth,
+//         target + e.deltaY * 2
+//       )
+//     );
 
-    // one single smooth scroll animation to the updated target
-    carousel.scrollTo({ left: target, behavior: 'smooth' });
-  }, { passive: false });
-});
+//     // one single smooth scroll animation to the updated target
+//     carousel.scrollTo({ left: target, behavior: 'smooth' });
+//   }, { passive: false });
+// });
 
 document.addEventListener('DOMContentLoaded', () => {
     const heading = document.querySelector('#home h1');
@@ -392,4 +387,103 @@ document.getElementById('close-reading').addEventListener('click', () => {
   } else {
     closeReading();
   }
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    let isDown = false;
+    let startX = 0;
+    let scrollLeft = 0;
+    let moved = false;
+    let suppressClick = false;
+    let velocity = 0;
+    let lastX = 0;
+    let lastTime = 0;
+    let momentumFrame;
+
+    function startDrag(e) {
+      cancelMomentum(); // stop any existing momentum
+      isDown = true;
+      startX = e.clientX;
+      lastX = startX;
+      scrollLeft = carousel.scrollLeft;
+      moved = false;
+      velocity = 0;
+      lastTime = performance.now();
+      carousel.classList.add('active');
+      document.body.style.userSelect = 'none';
+    }
+
+    function onDrag(e) {
+      if (!isDown) return;
+      const x = e.clientX;
+      const now = performance.now();
+      const dx = x - lastX;
+      const dt = now - lastTime;
+
+      // prevent tiny dt spikes
+      if (dt > 0 && dt < 100) {
+        velocity = dx / dt; // px/ms
+      }
+
+      const totalDx = x - startX;
+      if (Math.abs(totalDx) > 5) moved = true;
+      carousel.scrollLeft = scrollLeft - totalDx;
+
+      lastX = x;
+      lastTime = now;
+    }
+
+    function endDrag() {
+      if (isDown && moved) {
+        suppressClick = true;
+        setTimeout(() => suppressClick = false, 0);
+        startMomentumScroll();
+      }
+
+      isDown = false;
+      carousel.classList.remove('active');
+      document.body.style.userSelect = '';
+    }
+
+    function cancelMomentum() {
+      if (momentumFrame) cancelAnimationFrame(momentumFrame);
+      momentumFrame = null;
+    }
+
+    function startMomentumScroll() {
+      cancelMomentum();
+      const decay = 0.95; // friction
+      const minVelocity = 0.02; // px/ms threshold to stop
+
+      function momentum() {
+        carousel.scrollLeft -= velocity * 16; // assume ~16ms per frame (60fps)
+
+        velocity *= decay;
+
+        if (Math.abs(velocity) > minVelocity) {
+          momentumFrame = requestAnimationFrame(momentum);
+        } else {
+          cancelMomentum();
+        }
+      }
+
+      momentum();
+    }
+
+    carousel.addEventListener('pointerdown', startDrag, { passive: true });
+    window.addEventListener('pointermove', onDrag, { passive: false });
+    window.addEventListener('pointerup', endDrag);
+    window.addEventListener('pointerleave', endDrag);
+
+    carousel.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('click', e => {
+        if (suppressClick) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    });
+  });
 });
