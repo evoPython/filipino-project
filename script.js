@@ -1,15 +1,10 @@
 const carouselData = {
             carousel1: [
                 {
-                    title: "Ang Utos ng Hari",
-                    author: "Amado V. Hernandez",
-                    snippet: "Ako'y utos ng hari\nna sinusunod ng madla\nsa dilim ng gabi. skdv sdhvdhksd sdhkvcsdc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksd cksdjkc jksdhc"
+                    title: "Ang Maskara ng Moralidad: Pagkukunwari ng mga Guro",
+                    author: "Yohan Zaniel O. Son",
+                    snippet: "Sa bawat silid-aralan, ang guro ang inaasahang huwaran ng kabutihan—pangalawang magulang at gabay sa kabataan. Ngunit paano kung ang inaasahan nating halimbawa ng moralidad ay isa palang huwad? Sa likod ng magalang na pananalita at makadiyos na imahe, may mga lihim na itinatago. Nang masabi ng isang estudyante, “Pero ang kaniyang lihim ay nabuko na namin. Kahit matalo, panalo pa rin,” lumantad ang katotohanan: hindi lahat ng guro ay marapat hangaan. Ang pagbubunyag ng lihim ng isang guro ay sumasalamin sa mas malalim na isyu ng pagkukunwari sa edukasyon. Sa kognitibong antas, tinatanong tayo ng kwento kung sino ba talaga ang nararapat hangaan bilang huwaran. Sapat ba ang katalinuhan kung wala namang moralidad? Ang moralidad ay hindi lamang itinuturo—ito ay isinabubuhay. Ang mga guro ay hindi lamang tagapaghatid ng kaalaman kundi tagapaglinang din ng mga tamang asal. Sa damdamin naman, nakakagalit at nakalulungkot isipin na ang guro, na inaasahan nating magturo ng tama, ay siyang gumagawa ng mali. Lumilikha ito ng takot at pangamba sa mga estudyante, na umaasa sa mga guro bilang gabay sa buhay. Ayon sa press release ng Senado noong Hunyo 7, 2015, binanggit ni Senador Sonny Angara ang pag-aaral na “Teachers Who Bully Students: A Hidden Trauma,” kung saan 45% ng 116 gurong sinurvey ang umamin na minsan nilang nabully ang estudyante. Ipinapakita ng datos na ito na ang isyu ng pambubully at hindi tamang pag-uugali ng mga guro ay mas laganap kaysa sa inaasahan. Ang solusyon ay hindi lamang parusa, kundi isang mas malalim na values formation sa mga guro. Kailangang magkaroon ng regular na ethics training, bukas na grievance systems, at higit sa lahat, mas malalim na pag-unawa sa propesyonal na responsibilidad ng pagiging guro. Kung ang mga humuhubog sa kabataan ay hindi matuwid, paano tayo makaaasa ng matuwid na lipunan? Sa huli, kahit matalo, panalo pa rin ang katotohanan. Ang pagbubunyag ng mga lihim ay nagsisilbing hakbang tungo sa katarungan at pagbabago sa sistema ng edukasyon. Ang tunay na pagbabago ay magsisimula sa pagiging tapat at matuwid ng mga guro.<br><br>Press Release - Angara wants to amend anti-bullying act to include teacher bullying. (n.d.). <br>https://web.senate.gov.ph/press_release/2015/0607_angara1.asp<br><br>"
                 },
-                {
-                    title: "Pag-ibig sa Tinubuang Lupa",
-                    author: "Andres Bonifacio",
-                    snippet: "Aling pag-ibig pa ang hihigit kaya\nsa pagkadalisay at pagkadakila\nkundi ang pag-ibig sa sariling lupa?"
-                }
             ],
             carousel2: [
                 {
