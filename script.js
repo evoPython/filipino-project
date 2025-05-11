@@ -155,9 +155,9 @@ const carouselData = {
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
-                    title: "BLANK",
+                    title: "Ako Naman Muna - Panawagan para sa Pag-aalaga sa Sarili at Pagpapalakas ng Loob",
                     author: "John Rex M. Lasmarias",
-                    snippet: "NO SUBMISSION",
+                    snippet: "Sa bawat araw na lumipas, tilang may palagi tayong hinahabol na atensyon, tagumpay, o pagtanggap mula sa iba. Sa kagustuhang nating maging sapat sa lahat nakalimutan nating tanungin ang sarili. “Kumusta naba ako?”.<br><br>Ang kanta ni Angela Ken na “Ako Naman Muna” ay Isang paalala. Paalala na pagod rin tayong masaktan at, may karapatang huminto para alagaan ang sarili. Bawat linya ng kanta ay pinapaalala sa atin na wag mo ipilit ang sarili mo kong hindi mo na kaya, na okay lang huminto at magpahinga Kong pagod kana.<br><br>Ang ibig sabihin ng “self care” ay hindi lamang paghinga. Ito ay ang pagtanggap sa sariling kahinaan at pagyayakap sa sarili na tumahan na. Ang empowerment ay nagsisimula sa sarili, na dapat rin tayong mahalin, unawaain, at unahin.<br><br>Dahil sa mundo kong saan laging inuuna ang pangangailangan ng iba, meron rin tayong karapatan para sabihan ang sarili na “tahan na, ako naman muna”.<br>",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
