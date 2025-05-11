@@ -28,27 +28,27 @@ const carouselData = {
                 {
                     title: "BLANK",
                     author: "Josh T. Satinitigan",
-                    snippet: "Please submit ASAP!"
+                    snippet: "NO SUBMISSION"
                 },
                 {
                     title: "BLANK",
                     author: "Laurence M. Navarro",
-                    snippet: "Please submit ASAP!"
+                    snippet: "NO SUBMISSION"
                 },
                 {
                     title: "BLANK",
                     author: "Iomi Ysabel E. Capacio",
-                    snippet: "Please submit ASAP!"
+                    snippet: "NO SUBMISSION"
                 },
                 {
                     title: "BLANK",
                     author: "Raphael Martin S. Uytico",
-                    snippet: "Please submit ASAP!"
+                    snippet: "NO SUBMISSION"
                 },
                 {
                     title: "BLANK",
                     author: "TJ S. Balamban",
-                    snippet: "Please submit ASAP!"
+                    snippet: "NO SUBMISSION"
                 },
 
             ],
@@ -129,42 +129,42 @@ const carouselData = {
                 {
                     title: "BLANK",
                     author: "Karl Lawrence P. Eslit",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                     title: "BLANK",
                     author: "Juliana Moira G. Villarin",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                     title: "BLANK",
                     author: "Kiel Rian S. Magno",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                     title: "BLANK",
                     author: "John Rex M. Lasmarias",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                     title: "BLANK",
                     author: "Vince Xavier V. Gatela",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
                     title: "BLANK",
                     author: "Jamal R. Alcuirez",
-                    snippet: "Please submit ASAP!",
+                    snippet: "NO SUBMISSION",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 }
