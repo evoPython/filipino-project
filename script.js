@@ -24,7 +24,32 @@ const carouselData = {
                 	title: "Minsan, ang “Normal” ay Hindi Tama",
                 	author: "Gabriel Dion L. Gamale",
                 	snippet:"Ang linyang “Kung kuntento ang mga tao, normal ang takbo ng pamahalaan…” ay nagpapakita ng katotohanan sa nangyayari sa ating bansa. Kapag may nakukuha kang benepisyo mula sa gobyerno, kadalasan ay hindi mo na ito kinukuwestiyon. Hindi lang ito nangyayari sa gobyerno kundi pati na rin sa pang-araw-araw na buhay. Halimbawa, kung tinutulungan ka ng kaklase mo sa school kahit hindi mo naman hinihingi, hindi mo na aalamin kung may dahilan siya dahil nakikinabang ka rin naman.<br><br>Ipinapahiwatig ng linyang ito na kapag masaya o kuntento ang mga tao sa kalagayan nila, hindi na nila pinapansin ang mga mali o problema tulad ng katiwalian, hindi pantay na pagtrato, at kakulangan ng pagiging bukas ng gobyerno. Dahil dito, nagmumukhang “normal” ang mga hindi tamang bagay. At kapag may gustong magbago nito, ang tingin ng iba ay “abnormal” o mali iyon. Nagrereklamo lang sila kapag nasisira ang ginhawa nila, hindi dahil may mali talaga.<br><br>Sa isang survey noong Disyembre 2024, 59% ng mga Pilipino ang nagsabing sila ay kuntento sa administrasyon ni Marcos (Sigales, 2025). Oo, marami ang nasisiyahan, pero posibleng ibig sabihin din nito na hindi na nila iniisip kung maayos ba talaga ang pamahalaan. Baka tanggap na lang nila ang sitwasyon dahil okay naman sila sa ngayon.<br><br>Ang problema sa ganitong pag-iisip ay pinipili ng mga tao na manahimik kahit may mali na silang nakikita. Dahil may nakukuha sila, ayaw na nilang makialam. Hindi na sila nag-iisip kung tama ba ang ginagawa ng pamahalaan basta hindi sila naaapektuhan. Mas gusto nilang sumabay na lang sa agos kaysa magtanong o magsalita<br>.<br>Kaya mahalaga na maturuan ang mga tao na mag-isip nang mas malalim. Sa kasamaang palad, may mga paaralan pa rin na nagtuturo ng tahimik na pagsunod. Sa kwentong “Utos ng Hari,” halimbawa, parang hari ang mga guro. Mahigpit sila, mapag-utos, at hindi nakikinig sa estudyante. Dapat ang mga eskwelahan ay nagtuturo kung paano magsalita at manindigan kung may mali, hindi kung paano lang sumunod nang walang tanong.<br><br>Isa sa mga solusyon ay ang pagbibigay ng mas maraming kaalaman tungkol sa lipunan at media literacy. Dapat alam ng mga tao kung paano alamin ang totoo at suriin ang mga impormasyon. Dapat ding hikayatin ang gobyerno na maging bukas at tapat sa mamamayan. Sa ganitong paraan matututo tayong hindi basta maniwala at hindi agad makuntento.<br><br>Kailangan nating matutong maging mapanuri. Hindi lang para hindi tayo malinlang kundi para mas mapabuti pa natin ang ating buhay. Hindi sapat na \"okay na ito.\" Dapat tayong lumaban para sa mas mabuting pamahalaan. Gawin nating inspirasyon ang hangaring ito hindi lang para sa sarili natin kundi para rin sa kinabukasan ng iba.<br>"
-                }
+                },
+                {
+                    title: "BLANK",
+                    author: "Josh T. Satinitigan",
+                    snippet: "Please submit ASAP!"
+                },
+                {
+                    title: "BLANK",
+                    author: "Laurence M. Navarro",
+                    snippet: "Please submit ASAP!"
+                },
+                {
+                    title: "BLANK",
+                    author: "Iomi Ysabel E. Capacio",
+                    snippet: "Please submit ASAP!"
+                },
+                {
+                    title: "BLANK",
+                    author: "Raphael Martin S. Uytico",
+                    snippet: "Please submit ASAP!"
+                },
+                {
+                    title: "BLANK",
+                    author: "TJ S. Balamban",
+                    snippet: "Please submit ASAP!"
+                },
 
             ],
             carousel2: [
@@ -100,6 +125,48 @@ const carouselData = {
                 	snippet: "Sa mundong puno ng boses, minsan ang pinakamasakit ay ang kawalan ng tugon. Maraming pagkakataon na kahit alam mong mabuti ang layunin mo, parang ikaw lang ang may pakialam. Nakakapagod magpakita ng malasakit kapag walang tumutulong o kahit sumusuporta man lang. Kaya kahit gusto mong lumaban, dumadating talaga yung pakiramdam na nag-iisa ka.<br><br>Sobrang relate ako dito. Ilang beses ko nang sinubukang gumawa ng mga bagay na alam kong makakatulong sa nakararami. Pero parang hindi ito napapansin, o mas lalong hindi pinahahalagahan. Masakit makita na ang kabutihang intensyon ay tila bale-wala lang sa ibang tao. Hindi ko ginagawa ang mga bagay na ito para sa papuri o parangal. Ginagawa ko ito dahil alam kong tama, at gusto kong may magbago kahit kaunti. Pero kapag hindi ito nabibigyang pansin, parang unti-unting nawawala rin ang gana. Nakakaubos siya ng loob lalo na kung pakiramdam mo, wala kang kakampi. <br>Sa kabila ng lahat, pilit ko pa ring iniintindi. Baka may iba ring pinagdaraanan ang mga taong hindi nagpapakita ng suporta. Baka tahimik lang sila pero naiintindihan ka rin. Kaya kahit ang bigat, sinusubukan kong tumayo pa rin. Mahalagang ipaalala sa sarili na ang kabutihan ay hindi laging nasusuklian agad. Hindi dahil walang pumapansin, ay wala na itong saysay. Minsan, ang tunay na epekto ng kabutihan ay dumarating nang hindi natin nalalaman. Maaaring sa simpleng gawa, may nabago na pala sa puso ng iba. <br><br>Ang pagiging mag-isa sa laban ay totoong mahirap. Pero hindi ito dapat maging dahilan para tumigil. May mga pagkakataon talaga na ang kabutihan ay kailangang gawin kahit ikaw lang ang gumagawa. Dahil sa huli, mas mahalaga pa rin ang tumulong kaysa ang mapagod sa walang saysay na katahimikan ng iba.<br>",
                 	trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                 	trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "Karl Lawrence P. Eslit",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "Juliana Moira G. Villarin",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "Kiel Rian S. Magno",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "John Rex M. Lasmarias",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "Vince Xavier V. Gatela",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
+                },
+                {
+                    title: "BLANK",
+                    author: "Jamal R. Alcuirez",
+                    snippet: "Please submit ASAP!",
+                    trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
+                    trackName: "Angela Ken - Ako Naman Muna"
                 }
             ]
         }
