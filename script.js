@@ -134,9 +134,9 @@ const carouselData = {
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
                 {
-                    title: "BLANK",
+                    title: "Sa Likod ng Anino: Pagharap sa Self-Identity Crisis ng Kabataang Pilipino",
                     author: "Karl Lawrence P. Eslit",
-                    snippet: "NO SUBMISSION",
+                    snippet: "Ang self-identity crisis ay isang suliraning panlipunan kung saan ang tao ay nalilito sa kanyang pagkakakilanlan dahil sa matinding emosyonal na sugat. Ipinapakita ito sa awit na “Ako Naman Muna” ng Angela Ken, kung saan ang tauhan ay hindi makawala sa anino ng nakaraan at nahihirapan bumuo ng bagong sarili.<br>Nangyayari ang self-identity crisis kapag hindi nalulutas ang emosyonal na sakit. Ayon sa National Alliance on Mental Illness (NAMI) noong 2023, 40% ng kabataang Pilipino ang nakakaranas ng identity struggles dahil sa trauma at presyon ng mga tao.<br>Halimbawa, isang estudyante na iniwan ng magulang ang nawalan ng tiwala sa sarili at hindi na mahanap ang kanyang halaga. Kahit anong gawin niya, nakatali pa rin siya sa nakaraan, gaya ng ipinapakita sa kanta.<br>Hindi kahinaan ang dumaan sa identity crisis. Dapat itong harapin at pagdaanan upang makamit ang tunay na pagkakakilanlan. Kailangang normalisahin ang paghingi ng tulong upang mas maraming tao ang gumaling at makilala ang kanilang sarili.<br>",
                     trackSrc: "https://cdn.discordapp.com/attachments/1216324328082112662/1370718530818805840/Ako_Naman_Muna_-_Angela_Ken_Full_Song_Lyrics_Video.mp3?ex=6820849c&is=681f331c&hm=fae3614125ddb626f1cb28573fa62b7fcce5107c225fe866101d9884adaceff3&",
                     trackName: "Angela Ken - Ako Naman Muna"
                 },
